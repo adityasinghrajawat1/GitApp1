@@ -9,4 +9,5 @@ public interface EmployeeService
 {
         public Employee addEmployeeService(Employee employee);
         public List<Employee> getAllEmployeeService();
+        public Employee getEmployeeByIdService(int id);
 }
